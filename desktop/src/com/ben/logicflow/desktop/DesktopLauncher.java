@@ -14,9 +14,9 @@ final class DesktopLauncher {
 	public static void main(String[] args) {
 		final LwjglApplicationConfiguration configuration = new LwjglApplicationConfiguration();
 		configuration.title = "Logicflow";
-		configuration.width = 960;
-		configuration.height = 600;
-		//configuration.fullscreen = true;
+		//configuration.width = 960;
+		//configuration.height = 600;
+		configuration.fullscreen = true;
 		configuration.addIcon("icon" + Application.getFileSeparator() + "512x512.png", FileType.Internal);
 		configuration.addIcon("icon" + Application.getFileSeparator() + "256x256.png", FileType.Internal);
 		configuration.addIcon("icon" + Application.getFileSeparator() + "128x128.png", FileType.Internal);
