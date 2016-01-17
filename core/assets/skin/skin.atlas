@@ -1,0 +1,85 @@
+
+skin.png
+size: 62,45
+format: RGBA8888
+filter: MipMapLinearLinear,Nearest
+repeat: none
+blue-normal
+  rotate: false
+  xy: 57, 10
+  size: 3, 3
+  split: 1, 1, 1, 1
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+blue-rounded
+  rotate: false
+  xy: 2, 11
+  size: 13, 13
+  split: 6, 6, 6, 6
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+dark-bordered
+  rotate: false
+  xy: 17, 13
+  size: 11, 11
+  split: 5, 5, 5, 5
+  orig: 11, 11
+  offset: 0, 0
+  index: -1
+light-bordered
+  rotate: false
+  xy: 44, 2
+  size: 11, 11
+  split: 5, 5, 5, 5
+  orig: 11, 11
+  offset: 0, 0
+  index: -1
+light-dark-rounded
+  rotate: false
+  xy: 2, 26
+  size: 27, 17
+  split: 6, 20, 8, 8
+  orig: 27, 17
+  offset: 0, 0
+  index: -1
+light-light-rounded
+  rotate: false
+  xy: 44, 30
+  size: 13, 13
+  split: 6, 6, 6, 6
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+light-rounded
+  rotate: false
+  xy: 44, 15
+  size: 13, 13
+  split: 6, 6, 6, 6
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+transparent-black
+  rotate: false
+  xy: 59, 42
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+white-normal
+  rotate: false
+  xy: 57, 5
+  size: 3, 3
+  split: 1, 1, 1, 1
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+window
+  rotate: false
+  xy: 31, 13
+  size: 11, 30
+  split: 5, 5, 24, 5
+  orig: 11, 30
+  offset: 0, 0
+  index: -1

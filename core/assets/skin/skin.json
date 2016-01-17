@@ -1,0 +1,60 @@
+{
+  com.badlogic.gdx.graphics.Color: {
+    white: {
+      a: 1, b: 1, g: 1, r: 1
+    }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+    default: {
+      font: default-font, fontColor: white
+    }
+    title: {
+      font: title-font, fontColor: white
+    }
+    sub-title: {
+      font: sub-title-font, fontColor: white
+    }
+    small-sub-title: {
+      font: small-sub-title-font, fontColor: white
+    }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+    default: {
+      down: blue-rounded, up: light-rounded, font: default-font
+    }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.CheckBox$CheckBoxStyle: {
+    default: {
+      checkboxOn: light-light-rounded, checkboxOff: light-rounded, font: default-font
+    }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle: {
+    default: {
+      selection: blue-normal, background: dark-bordered, font: default-font, fontColor: white, cursor: white-normal
+    }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle: {
+    default: {
+      titleFont: default-font, background: window, titleFontColor: white
+    }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
+    default: {
+      vScroll: dark-bordered, hScrollKnob: light-bordered, background: dark-bordered, hScroll: dark-bordered, vScrollKnob: light-bordered
+    }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.SelectBox$SelectBoxStyle: {
+    default: {
+      font: default-font, fontColor: white, background: light-dark-rounded, scrollStyle: default,
+      listStyle: {
+        font: default-font, selection: blue-normal
+      }
+    }
+    menu-bar: {
+      font: default-font, fontColor: white, background: light-rounded, scrollStyle: default,
+      listStyle: {
+        font: default-font, selection: blue-normal
+      }
+    }
+  }
+}
